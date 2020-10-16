@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = "test2"
+
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk + '/sdk')
